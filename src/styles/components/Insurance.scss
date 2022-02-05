@@ -1,0 +1,37 @@
+.insurance{
+    align-items: center;
+    padding-bottom: 43px;
+    border-bottom: 1px solid $gray5;
+
+    &__amount{
+        border: 1px solid $gray4;
+        box-sizing: border-box;
+        border-radius: 8px;
+        align-content: center;
+        height: 56px;
+    }
+
+    &__details{
+        @include title-12--U;
+        color: $gray2;
+        &--first{
+            padding-right: 3%;
+            border-right: 1px solid $gray5;
+        }
+        &--second{
+            padding-left: 3%;
+        }
+    }
+
+    &__title{
+        @include title-16;
+        color: $gray1;
+    }
+
+    &__div{
+        @include title-16;
+        display: flex;
+        justify-content: center;
+        color: $gray1;
+    }
+}

@@ -1,0 +1,12 @@
+.cardicon{
+    padding: 20px 0;
+    border-bottom: 1px solid $gray5;
+    &__title{
+        @include title-20;
+        color: $gray1;
+    }
+    &__accion{
+        @include title-12--UB;
+        color: $acian;
+    }
+}

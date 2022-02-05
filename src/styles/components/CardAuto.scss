@@ -1,0 +1,24 @@
+.auto{
+    background: $white;
+    border: 3px solid $gray6;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 40px 32px;
+    margin-top: 10px;
+
+    &__placa{
+        @include paragraph-12;
+        color: $gray3;
+    }
+
+    &__model{
+        @include title-20;
+        color: $gray1;
+    }
+    
+    &__img{
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+    }
+}
